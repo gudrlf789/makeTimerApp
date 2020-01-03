@@ -1,1 +1,1 @@
-# makeTimerApp
+React and Redux
