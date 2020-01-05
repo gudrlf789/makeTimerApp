@@ -37,7 +37,7 @@ const initialState = {
 }
 
 function reducer(state = initialState, action){
-    switch(action, type){
+    switch(action.type){
         case START_TIMER:
             return applyStartTimer(state);
         case RESTART_TIMER:
